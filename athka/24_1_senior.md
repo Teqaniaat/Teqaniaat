@@ -1,12 +1,12 @@
 ---
-title: 'حلول الاختبار التأهيلي أذكى 2024 بلغة C++'
-description: 'كتابة معاذ القرني ويزن آشي'
+title: 'حلول الاختبار التأهيلي (المرحلة الثانوية)'
+description: 'أذكى 2024 باللغتين: C++ وبايثون'
 lang: ar
 layout: athka
 ---
 <div dir="auto">
   
- # حلول الاختبار التأهيلي أذكى 2024 بلغة C++
+# حلول الاختبار التأهيلي أذكى 2024
 
 
 <h2>كتب هذا الملف:</h2>
@@ -67,7 +67,7 @@ layout: athka
 
 ##  الجملة الشرطية IF 
 **الفكرة:** ننسخ الكود ونضيف أمر طباعة للمتغير المطلوب
-<details style="padding: 10px">
+<details>
   <summary>الحل بلغة С++</summary>
 
 ```c++
@@ -98,10 +98,33 @@ int main()
 
 </details> 
 
+<details>
+  <summary>الحل بلغة بايثون</summary>
+  
+```py
+x = 11
+y = 29
+
+if x % 2 != 0:
+    if x > y:
+        z = 0
+    else:
+        z = 1
+else:
+    if x > y:
+        z = 2
+    else:
+        z = 3
+
+print(z) # أضفنا أمر الطباعة
+```
+
+</details>
+
 ## التكرار
 **الفكرة:** ننسخ الكود ونضيف أمر طباعة للمتغير المطلوب
 
-<details style="padding: 10px">
+<details>
   <summary>الحل بلغة C++</summary>
 
 ```c++
@@ -119,11 +142,23 @@ int main()
   
 </details>
 
+<details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+r = 0
+for i in range(100):
+    r = (277 * r + 241) % 433
+print(r) # أضفنا أمر الطباعة
+```
+  
+</details>
+
 ##  معادلة خالد 
 **الفكرة:** تجربة جميع الاحتمالات
 
 
-<details style="padding: 10px">
+<details>
   <summary>الحل بلغة C++</summary>
 
 ```c++
@@ -148,16 +183,30 @@ int main()
   
 </details>
 
+<details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+P = 35171
+A = 24636
+
+for x in range(1, 1000000):
+    if (x * A % P == 1):
+        print(x)
+        exit()
+```
+  
+</details>
+
 ##  الاستدعاء الذاتي لعبير 
 
-<details style="padding: 10px">
-  <summary>خوارزمية الاستدعاء الذاتي (ريكيرجن / Recursion)</summary>
-
-**الفكرة:** تطبيق العطيات بتحويل المسألة إلى دالة ثم استدعائها كل مرة، وتذكر النتائج السابقة (memoization)
+<details>
+ <summary>خوارزمية الاستدعاء الذاتي (ريكيرجن / Recursion)</summary>
+ <b>الفكرة:</b> تطبيق العطيات بتحويل المسألة إلى دالة ثم استدعائها كل مرة، وتذكر النتائج السابقة (memoization)
 
   
-<details style="padding: 10px">
-  <summary>الحل بلغة C++</summary>
+ <details>
+   <summary>الحل بلغة C++</summary>
 
 ```c++
 #include <iostream>
@@ -184,7 +233,28 @@ int main()
 }
 ```
   
-</details>
+ </details>
+
+ <details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+N = 257 # اكتب الرقم المطلوب
+MOD = 193 # اكتب الرقم بعد باقي القسمة
+
+memo = [-1] * N+1;
+def rec(i: int) -> int:
+    if (memo[i] != -1):
+        return memo[i]
+    return memo[i] = (rec(i-3) + rec(i-2) * rec(i-1)) % MOD;
+
+memo[1] = 1
+memo[2] = 2
+memo[3] = 3
+print(rec(N))
+```
+
+ </details>
 
 </details>
 
@@ -192,6 +262,9 @@ int main()
 <details>
   <summary>الحل باستخدام البرمجة الديناميكية (Dynamic Programming / DP)</summary>
   <b>الفكرة: تطبيق المعادلة كما هي</b>
+
+ <details>
+  <summary>الحل بلغة C++</summary>
 
 ```c++
 #include <iostream>
@@ -212,19 +285,39 @@ int main()
     cout << dp[N];
 }
 ```
-  
+
+ </details>
+
+<details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+N = 257 # اكتب الرقم المطلوب
+MOD = 193 # اكتب الرقم بعد باقي القسمة
+
+dp = [0] * N+1
+dp[1] = 1
+dp[2] = 2
+dp[3] = 3
+for i in range(4, N+1):
+    dp[i] = (dp[i-3] + dp[i-2] * dp[i-1]) % MOD;
+print(dp[N])
+```
+
+</details>
+
 </details>
 
 ##  واجب ريم المنزلي
 
 
-<details style="padding: 10px">
+<details>
   <summary>البحث الثنائي (Binary Search)</summary>
 
 **الفكرة:** وجود حد أعلى للإجابة (نسميه $أ$) وحد أعلى للإجابة (نسميه $ب$)، ثم نختار عدد في المنتصف $\frac{ب + أ}{2}$، ونغير الحد الأدنى والأعلى بناءً على نتيجة الدالة لهذا الرقم.
 
 **ملاحظة:** يمكن تطبيق هذه الفكرة يدويًا باستعمال الحاسبة أو برامج الرسم البياني دون الحاجة لكتابة برنامج
-<details style="padding: 10px">
+<details>
   <summary>الحل بلغة C++</summary>
 
 ```c++
@@ -252,9 +345,36 @@ int main()
 ```
 
   </details>
+
+  <details>
+   <summary>الحل بلغة بايثون</summary>
+
+```py
+from math import *
+
+Y = 482.15385787945286;
+PREC = 1e-4;
+
+def f(x):
+    return (x+exp(x/100))
+
+l = 1, r = 10000
+while (abs(l - r) > PREC):
+    mid = (l + r) / 2;
+    if (f(mid) <= Y):
+        l = mid;
+    else:
+        r = mid - PREC;
+    
+print(l)
+```
+
+  </details>
 </details>
 
 ##  الأعداد الجيدة 
+
+**الفكرة:** تجربة جميع الاحتمالات
 
 <details>
   <summary>الحل بلغة C++</summary>
@@ -289,6 +409,31 @@ int main()
   
 </details>
 
+<details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+L = 207418 # نضع هنا قيم المعطيات 
+R = 691140 # نضع هنا قيم المعطيات 
+
+def isgood(xx: int) -> int
+    x = str(xx);
+    a=int(x[0])
+    b=int(x[1])
+    c=int(x[2])
+    d=int(x[3])
+    e=int(x[4])
+    f=int(x[5])
+    return ((a*c+d*f) == (a+b)*e-f ? 1 : 0)
+
+sol = 0;
+for i in range(L, R+1):
+    sol += isgood(i)
+print(sol)
+```
+
+</details>
+
 
 
 
@@ -296,12 +441,18 @@ int main()
 
 
 <details>
-  <summary>تجربة كل الاحتمالات مع خوارزمية الالتقاء في المنتصف (Meet in the middle) باستعمال الاستدعاء الذاتي (Recursion)</summary>
+  <summary>تجربة كل الاحتمالات مع خوارزمية الالتقاء في المنتصف (Meet in the middle)</summary>
 
 **الفكرة:** بما أن عدد الاحتمالات عالي جدًا ($= 2^{40} = 10^{12}$ 1 ترليون)، واللغات في المتوسط تنجز ($= 10^8$ 100 مليون) عملية في الثانية، يعني أن البرنامج لو جرب كل الاحتمالات سيستغرق حوالي ساعتين ونصف!
 
 **الاختصار:** نقسم مجموعة الأعداد إلى نصفين، ونجرب جميع الاحتمالات في كل نصف، ثم نجرب كل احتمالات الدمج ونستعمل البحث الثنائي للاختصار الإضافي
-                
+
+  <details>
+  <summary>باستعمال الاستدعاء الذاتي (Recursion)</summary>
+
+  <details>
+  <summary>الحل بلغة C++</summary>
+
 ```c++
 #include <bits/stdc++.h>
 #define ll long long
@@ -345,12 +496,60 @@ int main()
     cout << sol;
 }
 ```
-	
-</details>
+
+  </details>
 
 
-<details>
-  <summary>تجربة كل الاحتمالات مع خوارزمية الالتقاء في المنتصف (Meet in the middle) باستعمال تمثيل الأرقام الثنائية (Bitmasks)</summary>
+  <details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+import bisect
+
+a = [1697976, 1970865, 1481237, 1583430,
+     1537387, 1270113, 1184765, 1668778, 1857442, 1658671,
+     1349846, 1399258, 1636211, 1887763, 1659794, 1277974,
+     1438563, 1645195, 1161182, 1991079, 1295942, 1848458,
+     1932683, 1759741, 1394766, 1267867, 1664286, 1176904,
+     1125246, 1210594, 1950651, 1638457, 1927068, 1619366,
+     1299311, 1490221, 1090433, 1678885, 1753003, 1347600]
+C = 46342470
+
+sum = []
+sum2 = []
+n = 40
+
+def rec(idx, total, lim, su):
+    if idx == lim:
+        su.append(total)
+        return
+    rec(idx + 1, total + a[idx], lim, su)
+    rec(idx + 1, total, lim, su)
+
+rec(0, 0, n // 2, sum)
+rec(n // 2, 0, n, sum2)
+
+sum2.sort()
+
+sol = 0
+for v1 in sum:
+    xx = sum2[bisect.bisect_right(sum2, C - v1) - 1]
+    sol = max(sol, v1 + xx)
+
+print(sol)
+```
+
+  </details>
+  
+
+  </details>
+
+
+  <details>
+  <summary>باستعمال تمثيل الأرقام الثنائية (Bitmasks)</summary>
+
+   <details>
+   <summary>الحل بلغة C++</summary>
 
 ```c++
 #include <bits/stdc++.h>
@@ -406,10 +605,65 @@ int main()
 }
 ```
 
+   </details>
+
+
+   <details>
+   <summary>الحل بلغة بايثون</summary>
+
+```py
+import bisect
+
+a = [1697976, 1970865, 1481237, 1583430,
+     1537387, 1270113, 1184765, 1668778, 1857442, 1658671,
+     1349846, 1399258, 1636211, 1887763, 1659794, 1277974,
+     1438563, 1645195, 1161182, 1991079, 1295942, 1848458,
+     1932683, 1759741, 1394766, 1267867, 1664286, 1176904,
+     1125246, 1210594, 1950651, 1638457, 1927068, 1619366,
+     1299311, 1490221, 1090433, 1678885, 1753003, 1347600]
+C = 46342470
+
+sum = []
+sum2 = []
+n = 40
+
+half = n // 2
+for i in range(1 << half):
+    s = 0
+    for j in range(half):
+        if i & (1 << j):
+            s += a[j]
+    sum.append(s)
+
+for i in range(1, 1 << half):
+    s = 0
+    for j in range(half, n):
+        if i & (1 << (j - half)):
+            s += a[j]
+    sum2.append(s)
+
+sum2.sort()
+
+sol = 0
+for v1 in sum:
+    xx = sum2[bisect.bisect_right(sum2, C - v1) - 1]
+    sol = max(sol, v1 + xx)
+
+print(sol)
+```
+
+   </details>
+
+  </details>
+
 </details>
- 
+
 <details>
   <summary>الحل باستعمال البرمجة الديناميكية (Dynamic Programming / DP)</summary>
+
+
+  <details>
+  <summary>الحل بلغة C++</summary>
 
 ```c++
 #include <bits/stdc++.h>
@@ -449,12 +703,50 @@ int main()
         
   </details>
 
+
+  <details>
+  <summary>الحل بلغة بايثون</summary>
+
+```py
+a = [1697976, 1970865, 1481237, 1583430,
+     1537387, 1270113, 1184765, 1668778, 1857442, 1658671,
+     1349846, 1399258, 1636211, 1887763, 1659794, 1277974,
+     1438563, 1645195, 1161182, 1991079, 1295942, 1848458,
+     1932683, 1759741, 1394766, 1267867, 1664286, 1176904,
+     1125246, 1210594, 1950651, 1638457, 1927068, 1619366,
+     1299311, 1490221, 1090433, 1678885, 1753003, 1347600]
+C = 46342470
+
+N = int(5e7)
+dp = [0] * N
+dp[0] = 1
+
+for i in range(1, 41):
+    for j in range(N - 1, 0, -1):
+        if j >= a[i]:
+            dp[j] |= dp[j - a[i]]
+
+result = 0
+for i in range(1, C + 1):
+    if dp[i]:
+        result = i
+
+print(result)
+```
+
+  </details>
+
+</details>
   
-<details style="padding: 10px">
+<details>
    <summary>تجربة احتمالات عشوائية</summary>
 
    <b>ملاحظة: هذه الفكرة قد تطبع أرقام خاطئة، لأنها تعتمد على العشوائية، لكن كل ما زادت عدد المحاولات زادت الدقة، وهي غالبًا تطبع نتائج صحيحة</b>
   
+  <details>
+  <summary>الحل بلغة C++</summary>
+
+
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
@@ -490,6 +782,42 @@ int main()
 }
 ```
         
+
+  </details>
+
+  <details>
+  <summary>الحل بلغة بايثون</summary>
+
+
+```py
+import random
+
+a = [1697976, 1970865, 1481237, 1583430,
+     1537387, 1270113, 1184765, 1668778, 1857442, 1658671,
+     1349846, 1399258, 1636211, 1887763, 1659794, 1277974,
+     1438563, 1645195, 1161182, 1991079, 1295942, 1848458,
+     1932683, 1759741, 1394766, 1267867, 1664286, 1176904,
+     1125246, 1210594, 1950651, 1638457, 1927068, 1619366,
+     1299311, 1490221, 1090433, 1678885, 1753003, 1347600]
+C = 46342470
+TRIES = int(1e5)
+
+result = 0
+for i in range(TRIES + 1):
+    random.shuffle(a)
+    cur = 0
+    for c in a:
+        if cur + c > C:
+            result = max(cur, result)
+            break
+        cur += c
+
+print(result)
+```
+        
+
+  </details>
+
 </details>
 
 </div>
