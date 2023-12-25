@@ -6,6 +6,10 @@ pre, code {
     direction: ltr !important;
 }
 
+details {
+  padding: 10px;
+}
+
 /* End Custom */
 
 html {
