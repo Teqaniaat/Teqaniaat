@@ -150,7 +150,7 @@ print(r) # أضفنا أمر الطباعة
 
 
 ## المجموع الضخم 
-**المسألة:**لديك في المعطيات متغيرين اثنين، المطلوب جمع جميع الارقام التي تقع بينهم مع تضمين المتغيرين في الحساب 
+**المسألة:** لديك في المعطيات متغيرين اثنين، المطلوب جمع جميع الارقام التي تقع بينهم مع تضمين المتغيرين في الحساب 
 
 <details>
   <summary>استعمال دالة تكرار</summary>
@@ -241,7 +241,7 @@ for x in range(1, 1000000):
 
 ## هدية احمد 
 <details>
-  <summary>بايثون فقط - استخدام عملية باقي القسمة مباشرة</summary>
+  <summary>استخدام عملية باقي القسمة مباشرة (بلغة بايثون فقط)</summary>
 
 ```python
 N = 20350185920713548059742215227885673608992288193593
@@ -251,7 +251,7 @@ print(N%389)
 </details>
  
 <details>
-  <summary>استخدام عملية باقي القسمة بتسلسل محدد</summary>
+  <summary>استخدام عملية باقي القسمة بتسلسل محدد (بلغة C++)</summary>
 
 ```c++
 #include <iostream>
@@ -260,10 +260,10 @@ const string N = "20350185920713548059742215227885673608992288193593";
 const int M = 389;
 int main()
 {
-    int result=0;
+    int result = 0;
     for(int i=0; i<N.size(); i++)
         result = (result*10 + N[i]-'0') % M;
-    cout<<result;
+    cout << result;
 }
 ```
         
@@ -296,7 +296,7 @@ const int a[] = {570124, 235486, 941944, 489563, 266471, 439987, 433790, 241683,
 const int C = 13099613;
 
 vector<ll> sum, sum2;
-const int n=40;
+const int n=32;
 
 void rec(int idx, ll sum, int lim, vector<ll> &su)
 {
@@ -338,7 +338,7 @@ C = 13099613
 
 sum = []
 sum2 = []
-n = 40
+n = 32
 
 def rec(idx, total, lim, su):
     if idx == lim:
@@ -382,7 +382,7 @@ const int a[] = {570124, 235486, 941944, 489563, 266471, 439987, 433790, 241683,
 const int C = 13099613;
 
 vector<ll> sum, sum2;
-const int n=40;
+const int n=32;
 
 int main()
 {   
@@ -434,7 +434,7 @@ C = 13099613
 
 sum = []
 sum2 = []
-n = 40
+n = 32
 
 half = n // 2
 for i in range(1 << half):
@@ -487,7 +487,7 @@ int dp[N];
 int main()
 {
     dp[0] = 1;
-    for (int i = 1; i <= 40; i++) {
+    for (int i = 1; i <= 32; i++) {
         for (int j = N - 1; j > 0; j--) {
             if (j >= a[i]) {
                 dp[j] |= dp[j - a[i]];
@@ -518,7 +518,7 @@ N = int(5e7)
 dp = [0] * N
 dp[0] = 1
 
-for i in range(1, 41):
+for i in range(1, 33):
     for j in range(N - 1, 0, -1):
         if j >= a[i]:
             dp[j] |= dp[j - a[i]]
