@@ -5,8 +5,7 @@ lang: ar
 ---
 # أذكى | Athka 2024
 
-<a href="https://t.me/MawhibaNOPAI" class="tg-button">قناة أذكى</a>
-
+{%- include athka-tgchannel.html -%}
 
 <div dir="rtl">
 

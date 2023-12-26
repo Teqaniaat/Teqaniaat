@@ -15,8 +15,7 @@ layout: athka
     <li>يزن آشي</li>
 </ul>
 
-وهذا الملف ملكية [قناة أذكى](https://t.me/MawhibaNOPAI)
-
+{%- include athka-tgchannel.html -%}
 
 <table class="table table-bordered table-striped">
     <thead>
