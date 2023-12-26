@@ -10,6 +10,13 @@ details {
   padding: 10px;
 }
 
+.tg-button {
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #0086B3;
+  border-style: none;
+}
+
 /* End Custom */
 
 html {
