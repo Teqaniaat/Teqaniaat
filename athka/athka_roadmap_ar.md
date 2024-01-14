@@ -1,117 +1,117 @@
----
+ــــــ
 title: 'ATHKA Roadmap'
 layout: athka
 lang: ar
----
-<div dir="rtl">
+ــــــ
 # خطة الاستعداد والتدريب لأولمبياد أذكى
 ## اللغة المستهدفة (C++)
 ### برامج ينصح بها لكتابة وتنفيذ النصوص البرمجية
-- CodeBlocks | قديم & خفيف
-- Visual Studio Code | قابل للتخصيص & خفيف
-- Visual Studio | متقدم & ثقيل
+ــ CodeBlocks | قديم & خفيف
+ــ Visual Studio Code | قابل للتخصيص & خفيف
+ــ Visual Studio | متقدم & ثقيل
 
-Or you can use G++ directly in case of you like command line
+أو بإمكانك استخدام سطر الأوامر (cmd line)
 
-### Learning
-You don't need much knowledge in C++ like OOP, you just need to know:
-- Input/Output (cin/cout)
-- Loops
-- Conditions
-- Functions & Recursion
-- Data types & Operations
-- Bitwise Operations
-- Basic Strings
-- Structs (Optional)
-- Pointers (Optional)
+### تعلم أساسيات البرمجة
+انت بحاجة الى تعلم أساسيات البرمجة فقط، الأولمبياد لا يستهدف معرفة المشارك لمفاهيم متقدمة بالبرمجة مثل "البرمجة الكائنية"
+اساسيات البرمجة المطلوبة: 
+ــ الإدخال / الإخراج
+ــ التكرار
+ــ الأوامر الشرطية
+ــ الدوال 
+ــ أنواع المتغيرات الأساسية والعمليات عليها
+ــ العمليات الثنائية -Bitwise operations-
+ــ السلاسل النصية والعمليات عليها
+ــ نوع المتغير struct ( اختياري ) 
+ــ المؤشرات -pointers- ( اختياري )
 
-**Arabic:** [Harmash](https://harmash.com/tutorials/cplusplus/overview)
-**English:** [W3Schools](https://www.w3schools.com/cpp/)
+**مصدر عربي لتعلم أساسيات البرمجة:** [Harmash](https://harmash.com/tutorials/cplusplus/overview)
+**مصدر انقليزي لتعلم أساسيات البرمجة:** [W3Schools](https://www.w3schools.com/cpp/)
 
-Youtube & Google are your best friends in case of any problem, you can ask in communities.
+في حال واجهتك أي مشكلة اثناء التعلم، بإمكانك ايجاد حلها مباشرة في محركات البحث والمجتمعات.
 
-**Expected Time: >2 weeks**
+**الوقت المتوقع لتعلم أساسيات البرمجة:أسبوعين>**
 
-## Algorithms
+## الخوارزميات
 These are the important things to learn:
-- Time/Memory Complexity
-- Math Algorithms
-  - Prime Test
-  - Divisors
-  - Prime Factorization
-  - Goldbach Conjecture
-  - Seive
-  - GCD/LCM
-  - Binary Exponentiation
-  - Matrices
-- General Techniques & Algorithms
-  - Binary Search
-  - Two Pointers
-  - Prefix Sum
-  - Divide & Conquer (Merge Sort)
-- Geometry
-  - Pythagorean theorem
-  - Vectors
-  - Line intersection
-  - Point Location Test
-  - Sweep Line
-- Graph Algorithms
-  - DFS
-  - BFS
-  - Dijkstra
-  - MST
-  - Topological Sort
-- Dynamic Programming
-  - Combinatorical Counting
-  - Bitmask DP
-  - Optimization problems
-  - DP on trees
-- Data Strcutures
-  - Queue
-  - Stack
-  - DSU
-  - Segment Tree
-  - Sqrt decomposition
-  - Lowest Common Anceastor
-- C++ Built-in Functions
-  - `sort`
-  - `lower_bound`/`upper_bound`/`binary_search`
-  - `min`/`max`
-  - `min_element`/`max_element`
-  - `swap`
-  - `reverse`
-  - `builtin_popcount`
-  - `memset`
-  - `gcd`/`lcm`
-- C++ Built-in Data Structures
-  - `vector`
-  - `set`/`multiset`/`unordered_set`
-  - `map`
-  - `pair`
-  - `stack`
-  - `queue`
-  - `priority_queue`
-  - `array`
+ــ Time/Memory Complexity
+ــ Math Algorithms
+  ــ Prime Test
+  ــ Divisors
+  ــ Prime Factorization
+  ــ Goldbach Conjecture
+  ــ Seive
+  ــ GCD/LCM
+  ــ Binary Exponentiation
+  ــ Matrices
+ــ General Techniques & Algorithms
+  ــ Binary Search
+  ــ Two Pointers
+  ــ Prefix Sum
+  ــ Divide & Conquer (Merge Sort)
+ــ Geometry
+  ــ Pythagorean theorem
+  ــ Vectors
+  ــ Line intersection
+  ــ Point Location Test
+  ــ Sweep Line
+ــ Graph Algorithms
+  ــ DFS
+  ــ BFS
+  ــ Dijkstra
+  ــ MST
+  ــ Topological Sort
+ــ Dynamic Programming
+  ــ Combinatorical Counting
+  ــ Bitmask DP
+  ــ Optimization problems
+  ــ DP on trees
+ــ Data Strcutures
+  ــ Queue
+  ــ Stack
+  ــ DSU
+  ــ Segment Tree
+  ــ Sqrt decomposition
+  ــ Lowest Common Anceastor
+ــ C++ Builtــin Functions
+  ــ `sort`
+  ــ `lower_bound`/`upper_bound`/`binary_search`
+  ــ `min`/`max`
+  ــ `min_element`/`max_element`
+  ــ `swap`
+  ــ `reverse`
+  ــ `builtin_popcount`
+  ــ `memset`
+  ــ `gcd`/`lcm`
+ــ C++ Builtــin Data Structures
+  ــ `vector`
+  ــ `set`/`multiset`/`unordered_set`
+  ــ `map`
+  ــ `pair`
+  ــ `stack`
+  ــ `queue`
+  ــ `priority_queue`
+  ــ `array`
 
 ### Arabic
-- [Arabic Competitive Programming](https://www.youtube.com/@ArabicCompetitiveProgramming) 
-<!-- - Arabian CP Blog -->
+ــ [Arabic Competitive Programming](https://www.youtube.com/@ArabicCompetitiveProgramming) 
+<!ــــ ــ Arabian CP Blog ــــ>
 
 ### English
-- [Competitive Programming Handbook (CPH)](https://cses.fi/book/book.pdf)
-- [IUSACO Cpp](https://darrenyao.com/usacobook/cpp.pdf)
-- [USACO Guide](https://usaco.guide/)
-- [CP Algorithms](https://cp-algorithms.com/)
-- [GeeksForGeeks](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
-- [Errichito Channel](https://www.youtube.com/c/Errichto)
+ــ [Competitive Programming Handbook (CPH)](https://cses.fi/book/book.pdf)
+ــ [IUSACO Cpp](https://darrenyao.com/usacobook/cpp.pdf)
+ــ [USACO Guide](https://usaco.guide/)
+ــ [CP Algorithms](https://cpــalgorithms.com/)
+ــ [GeeksForGeeks](https://www.geeksforgeeks.org/competitiveــprogrammingــaــcompleteــguide/)
+ــ [Errichito Channel](https://www.youtube.com/c/Errichto)
 
 
 ## Practice
-- [Assiut Problems Sheet](https://codeforces.com/group/MWSDmqGsZm/contests)
-- [Errichto Problems Sheet](https://codeforces.com/group/yg7WhsFsAp/contests)
+ــ [Assiut Problems Sheet](https://codeforces.com/group/MWSDmqGsZm/contests)
+ــ [Errichto Problems Sheet](https://codeforces.com/group/yg7WhsFsAp/contests)
 
 **Expected Time: Forever**
 
 ## Notes
-- Some problems need a specific algorithm, you may learn it or ignore the problem until you reach that level.
-- Dynamic Programming really much depends on the amount of different DP problems you solved
+ــ Some problems need a specific algorithm, you may learn it or ignore the problem until you reach that level.
+ــ Dynamic Programming really much depends on the amount of different DP problems you solved
