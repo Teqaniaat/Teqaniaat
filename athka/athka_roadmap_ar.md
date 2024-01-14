@@ -4,16 +4,16 @@ layout: athka
 lang: ar
 ---
 # خطة الاستعداد والتدريب لأولمبياد أذكى
-## اللغة المستهدفة (C++)
 ### برامج ينصح بها لكتابة وتنفيذ النصوص البرمجية
-ــ CodeBlocks | قديم & خفيف
-ــ Visual Studio Code | قابل للتخصيص & خفيف
-ــ Visual Studio | متقدم & ثقيل
+- ـCodeBlocks | قديم & خفيف & ++C فقط
+- ـVisual Studio Code | قابل للتخصيص & خفيف & جميع اللغات
+- ـVisual Studio | متقدم & ثقيل & جميع اللغات
+- ـPycharm community | خفيف & python فقط
 
-أو بإمكانك استخدام سطر الأوامر (cmd line)
+أو بإمكانك استخدام سطر الأوامر (cmd line).
 
 ### تعلم أساسيات البرمجة
-انت بحاجة الى تعلم أساسيات البرمجة فقط، الأولمبياد لا يستهدف معرفة المشارك لمفاهيم متقدمة بالبرمجة مثل "البرمجة الكائنية"
+انت بحاجة الى تعلم أساسيات البرمجة فقط، مسائل الأولمبياد لا يتطلب معرفة المشارك لمفاهيم متقدمة بالبرمجة مثل "البرمجة الكائنية"
 اساسيات البرمجة المطلوبة: 
 ــ الإدخال / الإخراج
 ــ التكرار
@@ -28,90 +28,94 @@ lang: ar
 **مصدر عربي لتعلم أساسيات البرمجة:** [Harmash](https://harmash.com/tutorials/cplusplus/overview)
 **مصدر انقليزي لتعلم أساسيات البرمجة:** [W3Schools](https://www.w3schools.com/cpp/)
 
-في حال واجهتك أي مشكلة اثناء التعلم، بإمكانك ايجاد حلها مباشرة في محركات البحث والمجتمعات.
+في حال واجهتك أي مشكلة اثناء التعلم، يوتيوب وقوقل ما بيقصرون معك، يمكنك أيضا البحث في المجتمعات.
+
 
 **الوقت المتوقع لتعلم أساسيات البرمجة:أسبوعين>**
 
 ## الخوارزميات
-These are the important things to learn:
-ــ Time/Memory Complexity
-ــ Math Algorithms
-  ــ Prime Test
-  ــ Divisors
-  ــ Prime Factorization
-  ــ Goldbach Conjecture
-  ــ Seive
-  ــ GCD/LCM
-  ــ Binary Exponentiation
-  ــ Matrices
-ــ General Techniques & Algorithms
-  ــ Binary Search
-  ــ Two Pointers
-  ــ Prefix Sum
-  ــ Divide & Conquer (Merge Sort)
-ــ Geometry
-  ــ Pythagorean theorem
-  ــ Vectors
-  ــ Line intersection
-  ــ Point Location Test
-  ــ Sweep Line
-ــ Graph Algorithms
-  ــ DFS
-  ــ BFS
-  ــ Dijkstra
-  ــ MST
-  ــ Topological Sort
-ــ Dynamic Programming
-  ــ Combinatorical Counting
-  ــ Bitmask DP
-  ــ Optimization problems
-  ــ DP on trees
-ــ Data Strcutures
-  ــ Queue
-  ــ Stack
-  ــ DSU
-  ــ Segment Tree
-  ــ Sqrt decomposition
-  ــ Lowest Common Anceastor
-ــ C++ Builtــin Functions
-  ــ `sort`
-  ــ `lower_bound`/`upper_bound`/`binary_search`
-  ــ `min`/`max`
-  ــ `min_element`/`max_element`
-  ــ `swap`
-  ــ `reverse`
-  ــ `builtin_popcount`
-  ــ `memset`
-  ــ `gcd`/`lcm`
-ــ C++ Builtــin Data Structures
-  ــ `vector`
-  ــ `set`/`multiset`/`unordered_set`
-  ــ `map`
-  ــ `pair`
-  ــ `stack`
-  ــ `queue`
-  ــ `priority_queue`
-  ــ `array`
+هنا أهم الخوارزميات المستهدفة في الأولمبياد:
+- تعقيد الخوارزميات -الوقت/الذاكرة-
+- خوارزميات الرياضيات -الاستراتيجيات الحسابية-
+  - التحقق الأعداد الأولية
+  - القواسم
+  - تحليل الأعداد الأولية
+  - حدسية جولدباخ
+  - خوارزمية ايجاد الأعداد الأولية -sieve of eratosthenes-
+  - القاسم المشترك الأكبر/المضاعف المشترك الأقصر
+  - الأسس الثنائية -Binary Exponentiation-
+  - المصفوفات -Matrices-
+- تقنيات وخوارزميات عامة
+  - خوارزمية البحث الثنائي
+  - البحث بين نقطتين
+  - مجموع البادئة -Prefix sum-
+  - استراتيجية فَرِّق تَسُدْ -Divide and conquer-
+- الهندسة
+  - نظرية فيثاغورس
+  - المتجهات
+  - تقاطع الخطوط
+  - اختبار موقع النقطة
+  - استراتيجية -Sweep Line-
+- خوارزميات الرسوم البيانية -Graphs-
+  - البحث بالعمق -DFS-
+  - البحث بالعرض -BFS-
+  - خوارزمية -Dijkstra-
+  - خوارزمية -MST-
+  - الترتيب الطوبولوجي -Topological Sort-
+- الخوارزميات العودية -backtracking-
+  - الدوال ذاتية الاستدعاء -recursion- 
+- البرمجة الديناميكية
+  - العد التوافيقي
+  - البرمجة الديناميكية مع الاعداد الثنائية
+  - التحسين
+  - البرمجة الديناميكية على الرسوم البيانية
+- هياكل البيانات
+  - هياكل البيانات
+  - الطابور -Queue-
+  - المكدس -Stack-
+  - المجموعة المنفصلة -Disjoint-set data-
+  - الشجرة المجزئة -Segment Tree-
+  - تحليل الجذور -Sqrt decomposition-
+  - الجد الأدنى المشترك -Lowest Common Anceastor-
+- دوال ++C المدمجة
+  -ـ `sort`
+  -ـ `lower_bound`/`upper_bound`/`binary_search`
+  -ـ `min`/`max`
+  -ـ `min_element`/`max_element`
+  -ـ `swap`
+  -ـ `reverse`
+  -ـ `builtin_popcount`
+  -ـ `memset`
+  -ـ `gcd`/`lcm`
+- هياكل البيانات المدمجة في C++
+  -ـ `vector`
+  -ـ `set`/`multiset`/`unordered_set`
+  -ـ `map`
+  -ـ `pair`
+  -ـ `stack`
+  -ـ `queue`
+  -ـ `priority_queue`
+  -ـ `array`
 
-### Arabic
-ــ [Arabic Competitive Programming](https://www.youtube.com/@ArabicCompetitiveProgramming) 
-<!ــــ ــ Arabian CP Blog ــــ>
+### مصادر تعلم الخوارزميات بالعربية
+- [برمجة تنافسية بالعربية](https://www.youtube.com/@ArabicCompetitiveProgramming) 
+<!-- - مدونة البرمجة التنافسية العربية -->
 
-### English
-ــ [Competitive Programming Handbook (CPH)](https://cses.fi/book/book.pdf)
-ــ [IUSACO Cpp](https://darrenyao.com/usacobook/cpp.pdf)
-ــ [USACO Guide](https://usaco.guide/)
-ــ [CP Algorithms](https://cpــalgorithms.com/)
-ــ [GeeksForGeeks](https://www.geeksforgeeks.org/competitiveــprogrammingــaــcompleteــguide/)
-ــ [Errichito Channel](https://www.youtube.com/c/Errichto)
+### مصادر تعلم الخوارزميات بالإنقليزية
+- [كتيب البرمجة التنافسية (CPH)](https://cses.fi/book/book.pdf)
+- [IUSACO Cpp](https://darrenyao.com/usacobook/cpp.pdf)
+- [دليل USACO](https://usaco.guide/)
+- [خوارزميات CP](https://cp-algorithms.com/)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
+- [قناة Errichito](https://www.youtube.com/c/Errichto)
 
 
-## Practice
-ــ [Assiut Problems Sheet](https://codeforces.com/group/MWSDmqGsZm/contests)
-ــ [Errichto Problems Sheet](https://codeforces.com/group/yg7WhsFsAp/contests)
+## للتدريب على طريقة اسئلة الأولمبياد -البرمجة التنافسية | Competative Programming-
+- [مجموعة مسائل جامعة أسيوط](https://codeforces.com/group/MWSDmqGsZm/contests)
+- [مجموعة مسائل Errichto](https://codeforces.com/group/yg7WhsFsAp/contests)
 
-**Expected Time: Forever**
+**الوقت المتوقع للتدريب: إلى الأبد**
 
-## Notes
-ــ Some problems need a specific algorithm, you may learn it or ignore the problem until you reach that level.
-ــ Dynamic Programming really much depends on the amount of different DP problems you solved
+## ملاحظات
+- بعض المسائل تحتاج إلى معرفة خوارزمية معينة حتى تحلها، بإمكانك تعلم الخوارزمية أو تجاهل المسألة حتى تصل إلى ذلك المستوى.
+- البرمجة الديناميكية تعتمد إلى حد كبير على عدد مسائل البرمجة الديناميكية المختلفة التي تم حلها.
