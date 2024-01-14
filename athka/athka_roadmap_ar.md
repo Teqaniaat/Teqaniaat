@@ -78,24 +78,24 @@ lang: ar
   - تحليل الجذور -Sqrt decomposition-
   - الجد الأدنى المشترك -Lowest Common Anceastor-
 - دوال ++C المدمجة
-  - ـ`sort`
-  - ـ`lower_bound`/`upper_bound`/`binary_search`
-  -ـ `min`/`max`
-  -ـ `min_element`/`max_element`
-  -ـ `swap`
-  -ـ `reverse`
-  -ـ `builtin_popcount`
-  -ـ `memset`
-  -ـ `gcd`/`lcm`
-- هياكل البيانات المدمجة في C++
-  -ـ `vector`
-  -ـ `set`/`multiset`/`unordered_set`
-  -ـ `map`
-  -ـ `pair`
-  -ـ `stack`
-  -ـ `queue`
-  -ـ `priority_queue`
-  -ـ `array`
+  - ـ `sort`
+  - ـ `lower_bound`/`upper_bound`/`binary_search`
+  - ـ `min`/`max`
+  - ـ `min_element`/`max_element`
+  - ـ `swap`
+  - ـ `reverse`
+  - ـ `builtin_popcount`
+  - ـ `memset`
+  - ـ `gcd`/`lcm`
+- ـ هياكل البيانات المدمجة في C++
+  - ـ `vector`
+  - ـ `set`/`multiset`/`unordered_set`
+  - ـ `map`
+  - ـ `pair`
+  - ـ `stack`
+  - ـ `queue`
+  - ـ `priority_queue`
+  - ـ `array`
 
 ### مصادر تعلم الخوارزميات بالعربية
 - [برمجة تنافسية بالعربية](https://www.youtube.com/@ArabicCompetitiveProgramming) 
