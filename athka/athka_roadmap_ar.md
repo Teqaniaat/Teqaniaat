@@ -25,13 +25,17 @@ lang: ar
 - نوع المتغير struct ( اختياري ) 
 - المؤشرات -pointers- ( اختياري )
 
-**مصدر عربي لتعلم أساسيات البرمجة:** [Harmash](https://harmash.com/tutorials/cplusplus/overview)
-**مصدر انقليزي لتعلم أساسيات البرمجة:** [W3Schools](https://www.w3schools.com/cpp/)
+**مصدر عربي لتعلم أساسيات برمجة لغة سي بلس بلس:** [Harmash](https://harmash.com/tutorials/cplusplus/overview)
+**مصدر عربي لتعلم أساسيات برمجة بلغة بايثون:** [Harmash](https://harmash.com/tutorials/python/overview)
 
-في حال واجهتك أي مشكلة اثناء التعلم، يوتيوب وقوقل ما بيقصرون معك، يمكنك أيضا البحث في المجتمعات.
+**مصدر انقليزي لتعلم أساسيات برمجة لغة سي بلس بلس:** [W3Schools](https://www.w3schools.com/cpp/)
+**مصدر انقليزي لتعلم أساسيات برمجة لغة بايثون:** [W3Schools](https://www.w3schools.com/python/)
 
 
-**الوقت المتوقع لتعلم أساسيات البرمجة:أسبوعين>**
+في حال واجهتك أي مشكلة اثناء التعلم، يوتيوب وقوقل ما بيقصرون معك، بغمكانك أيضا البحث في المجتمعات.
+
+
+**الوقت المتوقع لتعلم أساسيات البرمجة:>أسبوعين**
 
 ## الخوارزميات
 ### ( عند البحث عن خوارزمية/مفاهيم/تقنيات بشكل عام ينصح بالاعتماد على تسميتها الإنقليزية لنتائج أفضل )
@@ -63,22 +67,21 @@ lang: ar
   - خوارزمية -Dijkstra-
   - خوارزمية -MST-
   - الترتيب الطوبولوجي -Topological Sort-
-- الخوارزميات العودية -backtracking-
+- الخوارزميات الارتدادية/العودية -backtracking-
   - الدوال ذاتية الاستدعاء -recursion- 
 - البرمجة الديناميكية -Dynamic Programming-
   - العد التوافيقي -Combinatorical Counting-
   - البرمجة الديناميكية على الاعداد الثنائية -Bitmask DP-
   - التحسين -Optimization problems-
-  - البرمجة الديناميكية على الرسوم البيانية -DP on trees
+  - البرمجة الديناميكية على الرسوم البيانية -DP on trees-
 - هياكل البيانات
-  - المتجه -Vector-
   - الطابور -Queue-
   - المكدس -Stack-
   - المجموعة المنفصلة -Disjoint-set data-
   - الشجرة المجزئة -Segment Tree-
   - تحليل الجذور -Sqrt decomposition-
   - الجد الأدنى المشترك -Lowest Common Anceastor-
-- دوال ++C المدمجة
+- اهم دوال ++C المدمجة
   - ـ `sort`
   - ـ `lower_bound`/`upper_bound`/`binary_search`
   - ـ `min`/`max`
@@ -88,7 +91,7 @@ lang: ar
   - ـ `builtin_popcount`
   - ـ `memset`
   - ـ `gcd`/`lcm`
-- ـ هياكل البيانات المدمجة في C++
+- ـ اهم هياكل البيانات المدمجة في ++C
   - ـ `vector`
   - ـ `set`/`multiset`/`unordered_set`
   - ـ `map`
