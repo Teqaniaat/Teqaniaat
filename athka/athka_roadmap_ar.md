@@ -102,7 +102,7 @@ lang: ar
   - ـ `array`
 
 ### مصادر تعلم الخوارزميات بالعربية
-- [برمجة تنافسية بالعربية](https://www.youtube.com/@ArabicCompetitiveProgramming) 
+- [يوتيوب: البرمجة تنافسية بالعربية](https://www.youtube.com/@ArabicCompetitiveProgramming) 
 <!-- - مدونة البرمجة التنافسية العربية -->
 
 ### مصادر تعلم الخوارزميات بالإنقليزية
