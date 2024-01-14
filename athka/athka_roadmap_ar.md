@@ -3,12 +3,12 @@ title: 'ATHKA Roadmap'
 layout: athka
 lang: ar
 ---
-# ATHKA Roadmap
-## Programming (C++)
-### Compiler
-- CodeBlocks | Old & Lightweight
-- Visual Studio Code | Customizable & Lightweight
-- Visual Studio | Advanced & Heavy
+<div dir="rtl">
+# خطة الاستعداد والتدريب لأولمبياد أذكى
+### برامج ينصح بها لكتابة وتنفيذ النصوص البرمجية
+- CodeBlocks | قديم & خفيف
+- Visual Studio Code | قابل للتخصيص & خفيف
+- Visual Studio | متقدم & ثقيل
 
 Or you can use G++ directly in case of you like command line
 
