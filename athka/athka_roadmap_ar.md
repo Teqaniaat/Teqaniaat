@@ -8,8 +8,8 @@ lang: ar
 
 <h2>كتب هذا الملف:</h2>
 <ul>
-    <li>معاذ القرني (@muaath_5)</li>
-    <li>يزن آشي (@ayazashy)</li>
+    <li>معاذ القرني <a href="https://twitter.com/Muaath_dev">(@Muaath_dev)</a></li>
+    <li>يزن آشي <a href="https://twitter.com/ayazashy">(@ayazashy)</a></li>
 </ul>
 
 {% include athka-tgchannel.html %}
