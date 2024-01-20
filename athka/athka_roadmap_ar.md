@@ -14,6 +14,7 @@ lang: ar
 
 {% include athka-tgchannel.html %}
 ### برامج ينصح بها لكتابة وتنفيذ النصوص البرمجية
+- ـ[Online GDB](https://onlinegdb.com) | يدعم كل اللغات إلكترونيًّا
 - ـCodeBlocks | قديم & خفيف & ++C فقط
 - ـVisual Studio Code | قابل للتخصيص & خفيف & جميع اللغات
 - ـVisual Studio | متقدم & ثقيل & جميع اللغات
