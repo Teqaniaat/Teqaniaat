@@ -4,6 +4,15 @@ layout: athkaAR
 lang: ar
 ---
 # خطة الاستعداد والتدريب لأولمبياد أذكى
+
+
+<h2>كتب هذا الملف:</h2>
+<ul>
+    <li>معاذ القرني (@muaath_5)</li>
+    <li>يزن آشي (@ayazashy)</li>
+</ul>
+
+{% include athka-tgchannel.html %}
 ### برامج ينصح بها لكتابة وتنفيذ النصوص البرمجية
 - ـCodeBlocks | قديم & خفيف & ++C فقط
 - ـVisual Studio Code | قابل للتخصيص & خفيف & جميع اللغات
