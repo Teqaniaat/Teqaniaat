@@ -1,7 +1,9 @@
 <div dir="rtl">
 
-  <img style="display:block;margin-left:auto;margin-right: auto;" alt="Logo - الشعار" src="./assets/img/logo_dark.png" width="100px">
-  <h1>تقنيات | Teqaniaat</h1>
+ <p align="center">
+  <img alt="Logo - الشعار" src="./assets/img/logo_dark.png" width="100px">
+  <h1 align="center">تقنيات | Teqaniaat</h1>
+ </p>
 
 
 ## أعمالنا
