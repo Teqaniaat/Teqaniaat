@@ -28,6 +28,7 @@ lang: ar
 - الأوامر الشرطية
 - الدوال 
 - أنواع المتغيرات الأساسية والعمليات عليها
+- المصفوفات
 - العمليات الثنائية -Bitwise operations-
 - السلاسل النصية والعمليات عليها
 - نوع المتغير struct ( اختياري ) 
@@ -38,6 +39,13 @@ lang: ar
 
 **مصدر انقليزي لتعلم أساسيات برمجة لغة سي بلس بلس:** [W3Schools](https://www.w3schools.com/cpp/)
 **مصدر انقليزي لتعلم أساسيات برمجة لغة بايثون:** [W3Schools](https://www.w3schools.com/python/)
+
+**للتدرب على مسائل في أساسيات البرمجة:** [Codeforces - Assuit Sheet Intro Problems](https://codeforces.com/group/MWSDmqGsZm/contest/219158)
+
+**تحديات برمجية متنوعة مقدمة بالعربي:** [Harmash - تحديات برمجية](https://harmash.com/tutorials/algorithms-and-data-structure/overview)
+
+
+
 
 ## الخوارزميات وحل المشكلات
 ## هيكلة البيانات للبرمجة
