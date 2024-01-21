@@ -73,3 +73,5 @@ lang: ar
   - القاسم المشترك الأكبر/المضاعف المشترك الأصغر -GCD/LCM-
   - الأسس الثنائية -Binary Exponentiation-
   - المصفوفات -Matrices-
+
+**للتدرب على مسائل الاستراتيجيات الحسابية:** [Codeforces - Assuit Sheet Math&Geometry Problems](https://codeforces.com/group/MWSDmqGsZm/contest/223338)
