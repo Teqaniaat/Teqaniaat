@@ -48,7 +48,6 @@ lang: ar
 <a id="الخوارزميات-وحل-المشكلات"></a>
 ## الخوارزميات وحل المشكلات
 خوارزميات وتقنيات أساسية
-- تعقيد الخوارزميات -Time Complexity-
 - خوارزميات الترتيب -Sorting-
 - خوارزمية البحث الثنائي -Binary Search-
 - البحث بين نقطتين -Two Pointers-
@@ -65,11 +64,8 @@ lang: ar
 
 <a id="هيكلة-البيانات-للبرمجة"></a>
 ## هيكلة البيانات للبرمجة
-- اهم هياكل البيانات
   - الطابور -Queue-
   - المكدس -Stack-
-  - المجموعة المنفصلة -Disjoint-set data-
-  - الشجرة المجزئة -Segment Tree-
 - اهم هياكل البيانات المدمجة في ++C
   - ـ `vector`
   - ـ `set`/`multiset`/`unordered_set`
@@ -89,14 +85,11 @@ lang: ar
 <a id="الاستراتيجيات-الحسابية"></a>
 ## الاستراتيجيات الحسابية
 - خوارزميات الرياضيات/الاستراتيجيات الحسابية
-  - التحقق الأعداد الأولية -Prime Test-
-  - القواسم -Divisors-
-  - تحليل الأعداد الأولية -Prime Factorization-
-  - حدسية جولدباخ -Goldbach Conjecture-
   - خوارزمية ايجاد الأعداد الأولية -sieve of eratosthenes-
+  - التحقق من الأعداد الأولية -Prime Test-
+  - تحليل الأعداد الأولية -Prime Factorization-
+  - القواسم -Divisors-
   - القاسم المشترك الأكبر/المضاعف المشترك الأصغر -GCD/LCM-
-  - الأسس الثنائية -Binary Exponentiation-
-  - المصفوفات -Matrices-
 
 **قائمة تشغيل -عربية- لشرح الاستراتيجيات الحسابية في البرمجة التنافسية:** [Math for Competitive Programming - Arabic](https://www.youtube.com/playlist?list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ)
 
