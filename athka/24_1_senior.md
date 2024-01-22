@@ -2,7 +2,8 @@
 title: 'حلول الاختبار التأهيلي (المرحلة الثانوية)'
 description: 'أذكى 2024 باللغتين: C++ وبايثون'
 lang: ar
-layout: athka
+layout: redirect
+redirect: "/athka/24_1_senior"
 ---
 <div dir="auto">
   

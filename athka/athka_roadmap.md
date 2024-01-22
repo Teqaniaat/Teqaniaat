@@ -1,7 +1,8 @@
 ---
 title: 'ATHKA Roadmap'
-layout: athka
 lang: en
+layout: redirect
+redirect: "/athka/roadmap"
 ---
 # ATHKA Roadmap
 ## Programming (C++)

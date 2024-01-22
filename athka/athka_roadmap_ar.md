@@ -1,7 +1,8 @@
 ---
 title: 'ATHKA Roadmap'
-layout: athkaAR
 lang: ar
+layout: redirect
+redirect: "/athka/roadmap_ar"
 ---
 # خطة الاستعداد والتدريب لأولمبياد أذكى
 
