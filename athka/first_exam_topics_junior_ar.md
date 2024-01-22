@@ -78,6 +78,7 @@ lang: ar
   - المصفوفات -Matrices-
 
 **قائمة تشغيل -عربية- لشرح الاستراتيجيات الحسابية في البرمجة التنافسية:** [Math for Competitive Programming - Arabic](https://www.youtube.com/playlist?list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ)
+
 **صفحة ويب -انقليزية- تغطي جميع مواضيع الاستراتيجيات الحسابية في البرمجة التنافسية:** [Geeks for Geeks - Math in Competitive Programming](https://www.geeksforgeeks.org/math-in-competitive-programming/)
 
 **للتدرب على مسائل الاستراتيجيات الحسابية:** [Codeforces - Assuit Sheet Math&Geometry Problems](https://codeforces.com/group/MWSDmqGsZm/contest/223338)
