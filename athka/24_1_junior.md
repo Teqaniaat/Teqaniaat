@@ -3,7 +3,7 @@ title: 'حلول الاختبار التأهيلي (المرحلة المتوس�
 description: 'أذكى 2024 باللغتين: C++ وبايثون'
 lang: ar
 layout: redirect
-redirect: "/athka/24_1_senior"
+redirect: "/athka/24_1_junior"
 ---
 <div dir="auto">
   
