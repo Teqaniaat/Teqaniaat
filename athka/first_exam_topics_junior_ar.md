@@ -47,6 +47,21 @@ lang: ar
 
 <a id="الخوارزميات-وحل-المشكلات"></a>
 ## الخوارزميات وحل المشكلات
+خوارزميات وتقنيات أساسية
+- تعقيد الخوارزميات -Time Complexity-
+- خوارزميات الترتيب -Sorting-
+- خوارزمية البحث الثنائي -Binary Search-
+- البحث بين نقطتين -Two Pointers-
+- مجموع البادئة -Prefix sum-
+
+**قناة -عربية- تشرح العديد من الخوارزميات:** [Arabic Competitive Programming](https://www.youtube.com/@ArabicCompetitiveProgramming/playlists)
+
+**منصة -انقليزية- تجمع بين جميع خوارزميات البرمجة التنافسية:** [CP Algorithms](https://cp-algorithms.com/index.html)
+
+**للتدرب على مسائل تتطلب استخدام خوارزميات (الأساسية):** [Bootcamp - 100 Easy Problems](https://codeforces.com/group/yg7WhsFsAp/contests)
+
+**للتدرب على مسائل تتطلب استخدام خوارزميات متنوعة:** [junior training sheet by mostafa saad](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=123190759)
+
 
 <a id="هيكلة-البيانات-للبرمجة"></a>
 ## هيكلة البيانات للبرمجة
@@ -64,6 +79,12 @@ lang: ar
   - ـ `queue`
   - ـ `priority_queue`
   - ـ `array`
+
+**قائمة تشغيل -عربية- لشرح هياكل البيانات في البرمجة التنافسية:** [Data Structures Course - Arabic](https://www.youtube.com/playlist?list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp)
+
+**صفحة ويب -انقليزية- تصنف جميع هياكل البيانات بتدرج مستواها (الى مستوى Proficient يكفي في البرمجة التنافسية):** [Baby dev - data structures](https://byby.dev/data-structures)
+
+**للتدرب على مسائل تتطلب استخدام هياكل بيانات:** [Codeforces - Assuit Sheet Juniors](https://codeforces.com/group/c3FDl9EUi9/contests)
 
 <a id="الاستراتيجيات-الحسابية"></a>
 ## الاستراتيجيات الحسابية
