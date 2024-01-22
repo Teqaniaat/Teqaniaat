@@ -13,7 +13,7 @@ lang: ar
 {% include athka-tgchannel.html %}
 
 ## المستوى المتقدم (المرحلة الثانوية)
-- [جميع مواضيع المستوى الأولي](https://teqaniaat.github.io/Teqaniaat/athka/first_exam_topics_junior_ar)
+- [تتضمن جميع مواضيع المستوى الأولي](https://teqaniaat.github.io/Teqaniaat/athka/first_exam_topics_junior_ar)
 - [تعقيد الخوارزميات](#تعقيد-الخوارزميات)
 - [الخوارزميات الارتدادية](#الخوارزميات-الارتدادية)
 - [خوارزميات البحث المتقدمة](#خوارزميات-البحث-المتقدمة)
