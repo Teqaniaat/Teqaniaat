@@ -3,6 +3,11 @@ title: '(المستوى الأولي) المواد العلمية المطلوب
 layout: athkaAR
 lang: ar
 ---
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
 
 <h2>كتب هذا الملف:</h2>
 <ul>
