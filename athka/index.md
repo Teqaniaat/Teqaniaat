@@ -1,6 +1,6 @@
 ---
 title: 'مصادر الأولمبياد الوطني للبرمجة والذكاء الاصطناعي (أذكى)'
-layout: athka
+layout: athkaAr
 lang: ar
 ---
 <h1 align=center>Athka 2024 | أولمبياد أذكى</h1>
