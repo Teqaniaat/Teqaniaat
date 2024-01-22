@@ -34,9 +34,11 @@ lang: ar
 - المؤشرات -pointers- ( اختياري )
 
 **مصدر عربي لتعلم أساسيات برمجة لغة سي بلس بلس:** [Harmash](https://harmash.com/tutorials/cplusplus/overview)
+
 **مصدر عربي لتعلم أساسيات برمجة بلغة بايثون:** [Harmash](https://harmash.com/tutorials/python/overview)
 
 **مصدر انقليزي لتعلم أساسيات برمجة لغة سي بلس بلس:** [W3Schools](https://www.w3schools.com/cpp/)
+
 **مصدر انقليزي لتعلم أساسيات برمجة لغة بايثون:** [W3Schools](https://www.w3schools.com/python/)
 
 **للتدرب على مسائل في أساسيات البرمجة:** [Codeforces - Assuit Sheet Intro Problems](https://codeforces.com/group/MWSDmqGsZm/contest/219158)
